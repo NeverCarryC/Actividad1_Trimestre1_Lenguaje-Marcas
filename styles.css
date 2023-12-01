@@ -1,0 +1,118 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+/* header */
+.menu{
+    display: flex;
+    align-items: center;
+    background-color: black;
+}
+
+.menu li{
+    flex: 1;
+}
+.menu li a{
+    color: white;
+    font-weight: 500;
+}
+#logo {
+    flex: 20;
+}
+
+/* index page content */
+.index-content{
+    background-image: url('images/index-background.jpg');
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-around;
+}
+
+.index-content .description{
+    text-align: center;
+}
+
+.description h2{
+    font-size: 124px;
+    margin: 0;
+}
+
+.description p{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+/* contact page */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 20vh auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/*information page*/
+#information img{
+    float: left;
+    padding: 15px;
+}
+
+#information section{
+    padding: 0 30%;
+}
+
+/*footer*/
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_menu{
+    
+}
+a{
+    color:black
+}
+
+footer{
+    background-color: grey;
+}
